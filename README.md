@@ -1,4 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Exa AI Search Application
+
+This project is a Next.js application that integrates Exa AI for search functionality and OpenAI for generating summaries.
+
+## Installation
+
+To set up this project, follow these steps:
+
+1. Clone the repository
+2. Install the dependencies:
+
+```bash
+npm install
+npm install exa-js openai
+```
+
+3. Set up your environment variables:
+   - Create a `.env.local` file in the root directory
+   - Add your Exa AI API key: `EXA_API_KEY=your_api_key_here`
+   - Add your OpenAI API key: `OPENAI_API_KEY=your_api_key_here`
 
 ## Getting Started
 
